@@ -27,6 +27,9 @@ Factory Method UML Diagram:
 ## Output Generated:
 The output for the given test files is generated in the form of a CSV file or in the from of a Txt file. If the order given satisfies the constraints, the bill amount is given in the CSV file. If the order does not satisfy the constraints, the Txt file generates the Error causing order values.
 
+### Please note:
+To produce the output, please go into the 
+
 ### Test file 1 output:
 
 ![test 1](https://user-images.githubusercontent.com/78246787/144803189-fca20362-b7d0-4fbe-b230-029ae0771cea.JPG)
