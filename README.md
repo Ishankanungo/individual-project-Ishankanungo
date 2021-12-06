@@ -11,8 +11,17 @@ The objective of the project is to develop an application for a user to purchase
 5. Next Type in: java ExecuteOrder
 
 ## Design Patterns Used:
-1. Singleton: The singleton design pattern is used to fetch the datasets inside CustomerOrder File. The program is supposed to fetch multiple dataset files, therefore singleton design pattern is used to implement that.
-#### Singleton UML Diagram:
+#### 1. Singleton: This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class. The singleton design pattern is used to fetch the datasets inside CustomerOrder File. The program is supposed to fetch multiple dataset files, therefore singleton design pattern is used to implement that.
+Singleton UML Diagram:
+
+![Individual Project Singleton](https://user-images.githubusercontent.com/78246787/144801984-b0864bec-0d93-444a-98fe-1a9d42ddfbea.jpg)
+
+#### 2. Factory Method: Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. The factory method design pattern is used to create Invalid orders file and the correct order bill amount file.
+Factory Method UML Diagram:
+
+
+
+
 
 
 individual-project-Ishankanungo created by GitHub Classroom
