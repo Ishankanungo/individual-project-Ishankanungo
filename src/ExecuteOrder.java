@@ -12,7 +12,7 @@ public class ExecuteOrder {
         List<String> orders = csvHandler.readFile("src/Input3 - Sheet1.csv");
         CustomerOrder placedOrder = new CustomerOrder(cards);
         placedOrder.OrderCreation(orders);
-        List<Order> invalidOrders = placedOrder.OrderValidation(stock, 3,4,6);
+        List<Order> invalidOrders = placedOrder.OrderValidation(stock, 5,3,6);
 
         if(invalidOrders.size() == 0){
             double bill=  placedOrder.BillAmount(stock);
