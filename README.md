@@ -11,13 +11,24 @@ The objective of the project is to develop an application for a user to purchase
 5. Next Type in: java ExecuteOrder
 
 ## Design Patterns Used:
-#### 1. Singleton: This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class. The singleton design pattern is used to fetch the datasets inside CustomerOrder File. The program is supposed to fetch multiple dataset files, therefore singleton design pattern is used to implement that.
+#### 1. Singleton: 
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class. The singleton design pattern is used to fetch the datasets inside CustomerOrder File. The program is supposed to fetch multiple dataset files, therefore singleton design pattern is used to implement that.
 Singleton UML Diagram:
 
 ![Individual Project Singleton](https://user-images.githubusercontent.com/78246787/144801984-b0864bec-0d93-444a-98fe-1a9d42ddfbea.jpg)
 
-#### 2. Factory Method: Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. The factory method design pattern is used to create Invalid orders file and the correct order bill amount file.
+#### 2. Factory Method: 
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. The factory method design pattern is used to create Invalid orders file and the correct order bill amount file.
 Factory Method UML Diagram:
+
+![Individual Project Factory](https://user-images.githubusercontent.com/78246787/144802597-15a9d9a9-fd52-4443-9b84-9f5c1b9cd8e0.jpg)
+
+
+## Output Generated:
+The output for the given test files is generated in the form of a CSV file or in the from of a Txt file. If the order given satisfies the constraints, the bill amount is given in the CSV file. If the order does not satisfy the constraints, the Txt file generates the Error causing order values.
+
+### Test file 1 output:
+
 
 
 
