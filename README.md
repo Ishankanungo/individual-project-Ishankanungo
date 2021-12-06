@@ -37,11 +37,7 @@ The output for the given test files is generated in the form of a CSV file or in
 
 ### Test file 3 output:
 
-
-
-
-
-
+![test3](https://user-images.githubusercontent.com/78246787/144803393-492eb85f-c4bd-476c-aae4-ae962d022c57.JPG)
 
 
 individual-project-Ishankanungo created by GitHub Classroom
